@@ -1,0 +1,5 @@
+#! /home/saviof/venv/scripts.venv/bin/python3
+
+import alfred.cli
+
+alfred.cli.cli()
