@@ -1,5 +1,5 @@
 [run]
-source = alfred
+source = robin
 branch = True
 
 [paths]

@@ -1,6 +1,6 @@
 import os
 
-from alfred import constants
+from robin import constants
 import git
 from git import RemoteProgress
 from progress.bar import Bar

@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="alfred",
+    name="robin",
     version="0.1.0",
     description="",
     long_description=long_description,
@@ -16,8 +16,8 @@ setup(
     author="Savio Fernandes",
     author_email="savio@saviof.com",
     license="MIT",
-    url="https://github.com/artbycrunk/alfred",
-    download_url='https://github.com/artbycrunk/alfred/archive/0.1.0.tar.gz',
+    url="https://github.com/artbycrunk/robin",
+    download_url='https://github.com/artbycrunk/robin/archive/0.1.0.tar.gz',
     keywords=[],
     packages=find_packages("src"),
     package_dir={"": "src"},
@@ -42,7 +42,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "alfred = alfred.cli:main"
+            "robin = robin.cli:main"
         ]
     }
 )

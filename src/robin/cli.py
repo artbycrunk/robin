@@ -1,5 +1,5 @@
 import click
-from alfred import git, constants
+from robin import git, constants
 
 @click.group()
 def cli():
